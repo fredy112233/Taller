@@ -173,7 +173,7 @@ if st.button('Predict'):
 			''')
 			nStress = int(rf.predict(val))
 			if nStress <3:
-	                          st.write(nStress)
+	                          st.text("Nivel de estres bajo")
 			elif nStress <5:
 				st.text("Nivel de estres normal")
 				
