@@ -1,7 +1,6 @@
 import joblib
 import math
 import pandas as pd
-#import numpy as np
 rf = joblib.load("models/QDA.pkl")  #Cargamos el QDA
 
 meanVal = joblib.load("data/meanVal.pkl")  #Cargamos los valores medios
@@ -171,7 +170,7 @@ if st.button('Predict'):
 			st.write('''
 			## Results 🔍 
 			''')
-			nStress = int(rf.predict(val)
+			nStress = int(rf.predict(val))
 			if nStress < 3:
 				st.text("Estres bajo")
 			elif nStress <5:
