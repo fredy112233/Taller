@@ -65,7 +65,7 @@ st.markdown(
 st.markdown(
 	'''
 	<img src = 'https://www.udenar.edu.co/recursos/wp-content/uploads/2017/02/udenar-negro350x350-300x300.png'  style = 'width : 13%;'>
-	<img src = 'https://viis.udenar.edu.co/wp-content/uploads/2019/07/Maestria-ingenieria-electronica-291x200.jpg'style = 'width : 13%;position : absolute; right : 0'>
+	<img src = 'https://viis.udenar.edu.co/wp-content/uploads/2019/07/Maestria-ingenieria-electronica-291x200.jpg'style = 'width : 13%;position : center; right : 0'>
 	<img src = 'https://saturdays.ai/wp-content/uploads/2021/01/logo.png' style = 'height : 10vh; position : absolute; right : 0; top : 8vh; margin : 0'>
 	''', 
 	unsafe_allow_html=True)
