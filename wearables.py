@@ -64,12 +64,12 @@ st.markdown(
 
 st.markdown(
 	'''
-	<img src = 'https://www.udenar.edu.co/recursos/wp-content/uploads/2017/02/udenar-negro350x350-300x300.png'  style = 'width : 17%;position : absolute; right : 0;'>
+	<img src = 'https://www.udenar.edu.co/recursos/wp-content/uploads/2017/02/udenar-negro350x350-300x300.png'  style = 'width : 13%;'>
 	<img src = 'https://saturdays.ai/wp-content/uploads/2021/01/logo.png' style = 'height : 10vh; position : absolute; right : 0; top : 8vh; margin : 0'>
 	''', 
 	unsafe_allow_html=True)
 
-st.title("Stress wearables")
+st.title("                    Stress wearables")
 
 def rr_to_hb(rr):
 	rr = 1/rr
