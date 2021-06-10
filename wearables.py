@@ -170,7 +170,7 @@ if st.button('Predict'):
 			st.write('''
 			## Results 🔍 
 			''')
-			nStress = int(rf.predict(np.dot (val))
+			nStress = int(rf.predict(val)
 			if nStress < 3:
 				st.text("Estres bajo")
 			elif nStress <5:
