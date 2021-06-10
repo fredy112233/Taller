@@ -1,5 +1,6 @@
 import joblib
 import math
+import numpy as np
 import pandas as pd
 rf = joblib.load("models/QDA.pkl")  #Cargamos el QDA
 
@@ -171,7 +172,7 @@ if st.button('Predict'):
 			st.write('''
 			## Results 🔍 
 			''')
-			nStress = int(rf.predict(dot(val)))
+			nStress = int(rf.predict(np.dot(val)))
 			if nStress < 3:
 				st.text("Estres bajo")
 			elif nStress <5:
