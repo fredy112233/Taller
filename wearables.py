@@ -64,7 +64,7 @@ st.markdown(
 
 st.markdown(
 	'''
-	<img src = 'https://www.udenar.edu.co/recursos/wp-content/uploads/2017/02/udenar-negro350x350-300x300.png' style = 'height : 10vh; position : absolute; right : 0; top : 8vh; margin : 0'>
+	<img src = 'https://www.udenar.edu.co/recursos/wp-content/uploads/2017/02/udenar-negro350x350-300x300.png'  style = 'width : 32%;'>
 	#<img src = 'https://saturdays.ai/wp-content/uploads/2021/01/logo.png' style = 'height : 10vh; position : absolute; right : 0; top : 8vh; margin : 0'>
 	''', 
 	unsafe_allow_html=True)
@@ -170,7 +170,7 @@ if st.button('Predict'):
 			st.write('''
 			## Results 🔍 
 			''')
-			nStress = int(rf.predict(val))
+			nStress = int(rf.predict(dot(val)))
 			if nStress < 3:
 				st.text("Estres bajo")
 			elif nStress <5:
