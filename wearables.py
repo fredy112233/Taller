@@ -2,7 +2,7 @@ import joblib
 import math
 import pandas as pd
 
-rf = joblib.load("models/rf.SVM")  #Cargamos el rf
+rf = joblib.load("models/SVM.pkl")  #Cargamos el rf
 
 meanVal = joblib.load("data/meanVal.pkl")  #Cargamos los valores medios
 meanVal = pd.DataFrame(meanVal)
