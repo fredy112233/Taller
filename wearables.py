@@ -173,9 +173,12 @@ if st.button('Predict'):
 			''')
 			nStress = int(rf.predict(val))
 			if nStress <3:
-				st.text("Estres bajo")
+				#st.text("Estres bajo")
+				st.print(nStress)
 			elif nStress <5:
-				st.text("Nivel de estres normal")
+				#st.text("Nivel de estres normal")
+				st.print(nStress)
+				
 			else:
 				st.text("Nivel de estres alto, deberias relajarte")
 			st.components.v1.html(stress_o_meter(nStress))
