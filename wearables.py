@@ -177,7 +177,7 @@ if st.button('Predict'):
 				st.float(nStress)
 			elif nStress <5:
 				#st.text("Nivel de estres normal")
-				st (nStress)
+				st.write(nStress)
 				
 			else:
 				st.text("Nivel de estres alto, deberias relajarte")
