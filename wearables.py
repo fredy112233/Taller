@@ -1,7 +1,7 @@
 import joblib
 import math
 import pandas as pd
-rf = joblib.load("models/QDA_2.pkl")  #Cargamos el QDA
+rf = joblib.load("models/QD.pkl")  #Cargamos el QDA
 
 meanVal = joblib.load("data/meanVal.pkl")  #Cargamos los valores medios
 meanVal = pd.DataFrame(meanVal)
